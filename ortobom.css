@@ -1,0 +1,24 @@
+img{
+display: flex;
+justify-content: flex-start;
+
+border-radius: 10px;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    
+}
+.um{
+    display: flex;
+    gap: 20px;
+}
+
+.um p{
+font-size: 25px;
+}
+
+.um button{
+font-size: 90px;
+background-color: rgb(220, 238, 238);
+}

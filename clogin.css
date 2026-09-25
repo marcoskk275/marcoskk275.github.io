@@ -1,0 +1,37 @@
+body{
+height: 100vh;
+margin: 0;
+display: flex;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwl5182NkiI1G0ghZaIlyaF0usSNmKZlzNsvsccbBjDg&s=10
+);
+background-size: cover;
+background-position: center;
+justify-content: center;
+align-items: center;
+}
+form{
+background-color: rgba(169, 169, 169, 0.377);
+display: flex;
+flex-direction: column;
+padding: 30px;
+gap: 20px;
+border-radius: 10px;
+backdrop-filter: blur(10px)
+}
+
+form input{
+padding: 10px;
+width: 200px;
+border-radius: 20px;
+border: none;
+background-color: rgba(211, 211, 211, 0.329);
+}
+
+form button{
+    background-color: rgb(3, 75, 138);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+border-radius: 30px;
+cursor: pointer;
+}

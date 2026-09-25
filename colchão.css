@@ -1,0 +1,54 @@
+.card{
+display: flex;
+background-color: rgb(70, 73, 77);
+flex-direction: column;
+width: 250px;
+height: 300px;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+gap: 15px;
+border-radius: 25px;
+}
+
+.card img{
+width: 200px;
+height: 200px;
+
+}
+
+.card span{
+color: rgb(0, 0, 0);
+text-decoration: none;
+display: flex;
+justify-content: center;
+}
+
+.card a{
+
+text-decoration: none;
+
+}
+.geral{
+display: flex;
+gap: 40px;
+padding: 30px;
+justify-content: center;
+
+}
+
+nav{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    align-items: center;
+    
+    height: 70px;
+}
+
+nav img{height: 150px;}
+
+nav i{
+    color: black;
+}
